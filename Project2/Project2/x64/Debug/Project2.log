@@ -1,2 +1,2 @@
 ﻿  prg.cpp
-  Project2.vcxproj -> D:\1_Seneca\semester3\OOP345\preLearn\Project2\x64\Debug\Project2.exe
+D:\1_Seneca\semester3\OOP345\preLearn\Project2\prg.cpp(12,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
