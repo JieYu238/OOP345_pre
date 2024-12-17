@@ -18,16 +18,5 @@
     <ClCompile Include="prg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="07-envThirdMainArgument.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="heehoo.abc">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="hoohoo.def">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
 </Project>
