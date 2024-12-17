@@ -1,0 +1,4 @@
+1. Class Definition: When defining a template class, you must specify <type> after the class name whenever the template parameter is required.
+2. Member Functions: For any member function (including constructors, destructors, and operators), <type> must be added in both the template declaration and the function definition. 
+3. Outside Function Definitions: For functions outside the class (like operator<<), explicitly declare <type> in both the template declaration and when using the class name.
+4. Avoid Hardcoding Types: Inside the templated class, avoid hardcoding types like int. Use the type template parameter to ensure the class is generic.

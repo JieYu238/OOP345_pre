@@ -1,0 +1,14 @@
+
+   Rules to avoid template failures
+1. Type Deduction-Templates rely on type deduction to determine the template parameter type. 
+      Function templates: Provide enough information for the compiler to deduce the type.
+      If type deduction is not possible, explicitly specify the template argument
+2. Type Compatibility-Ensure that the type T passed to the template satisfies the operations or requirements inside the template.
+3. Avoid Uninitialized Variables-If a template depends on default initialization, ensure that the type T supports it.
+4. Overloading and Ambiguity-Be cautious when overloading functions involving templates, as ambiguous overloads can cause errors.
+5. Use Default Types When Necessary-Provide default template arguments to simplify usage and prevent failures due to missing type arguments.
+6. Use Concepts or Type Traits for Constraints(C++20 and Beyond)
+7. Avoid Specialization Pitfalls-If specializing templates, ensure that the specialization logic does not conflict with the primary template.
+8. Avoid Invalid Use of Non-Type Template parameters-Non-type template parameters (e.g., int, constexpr values) must have valid values or types that comply with the language rules.
+9. Optimize template code to reduce compilation complexity.
+10. Document the requirements of template parameters for clarity.
